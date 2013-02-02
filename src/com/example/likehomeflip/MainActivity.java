@@ -16,6 +16,7 @@ public class MainActivity extends Activity {
 		// listview
 		ListView lv = (ListView) findViewById(R.id.ListView);
 
+		// 
 		ArrayAdapter<String> items = new ArrayAdapter<String>(this,
 				R.layout.row_text, getResources().getStringArray(
 						R.array.item_array));
