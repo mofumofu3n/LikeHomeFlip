@@ -13,6 +13,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+		// listview
 		ListView lv = (ListView) findViewById(R.id.ListView);
 
 		ArrayAdapter<String> items = new ArrayAdapter<String>(this,
